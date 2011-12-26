@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E79A07D114A8DED20070306D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79A07D014A8DED20070306D /* UIKit.framework */; };
+		E79A07D314A8DED20070306D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79A07D214A8DED20070306D /* Foundation.framework */; };
+		E79A07D514A8DED20070306D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79A07D414A8DED20070306D /* CoreGraphics.framework */; };
+		E79A07DB14A8DED20070306D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E79A07D914A8DED20070306D /* InfoPlist.strings */; };
+		E79A07DD14A8DED20070306D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A07DC14A8DED20070306D /* main.m */; };
+		E79A07E114A8DED20070306D /* amazedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A07E014A8DED20070306D /* amazedAppDelegate.m */; };
+		E79A07E414A8DED20070306D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E79A07E214A8DED20070306D /* MainWindow.xib */; };
+		E79A07E714A8DED20070306D /* amazedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A07E614A8DED20070306D /* amazedViewController.m */; };
+		E79A07EA14A8DED20070306D /* amazedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E79A07E814A8DED20070306D /* amazedViewController.xib */; };
+		E79A07F214A8DED20070306D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79A07F114A8DED20070306D /* SenTestingKit.framework */; };
+		E79A07F314A8DED20070306D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79A07D014A8DED20070306D /* UIKit.framework */; };
+		E79A07F414A8DED20070306D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79A07D214A8DED20070306D /* Foundation.framework */; };
+		E79A07F514A8DED20070306D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79A07D414A8DED20070306D /* CoreGraphics.framework */; };
+		E79A07FD14A8DED20070306D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E79A07FB14A8DED20070306D /* InfoPlist.strings */; };
+		E79A07FF14A8DED20070306D /* amazedTests.h in Resources */ = {isa = PBXBuildFile; fileRef = E79A07FE14A8DED20070306D /* amazedTests.h */; };
+		E79A080114A8DED20070306D /* amazedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A080014A8DED20070306D /* amazedTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E79A07F614A8DED20070306D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79A07C314A8DED20070306D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79A07CB14A8DED20070306D;
+			remoteInfo = amazed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E79A07CC14A8DED20070306D /* amazed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amazed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79A07D014A8DED20070306D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E79A07D214A8DED20070306D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E79A07D414A8DED20070306D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E79A07D814A8DED20070306D /* amazed-Info.plist */ = {isa = PBXFileReference; path = "amazed-Info.plist"; sourceTree = "<group>"; };
+		E79A07DA14A8DED20070306D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E79A07DC14A8DED20070306D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E79A07DE14A8DED20070306D /* amazed-Prefix.pch */ = {isa = PBXFileReference; path = "amazed-Prefix.pch"; sourceTree = "<group>"; };
+		E79A07DF14A8DED20070306D /* amazedAppDelegate.h */ = {isa = PBXFileReference; path = amazedAppDelegate.h; sourceTree = "<group>"; };
+		E79A07E014A8DED20070306D /* amazedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = amazedAppDelegate.m; sourceTree = "<group>"; };
+		E79A07E314A8DED20070306D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E79A07E514A8DED20070306D /* amazedViewController.h */ = {isa = PBXFileReference; path = amazedViewController.h; sourceTree = "<group>"; };
+		E79A07E614A8DED20070306D /* amazedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = amazedViewController.m; sourceTree = "<group>"; };
+		E79A07E914A8DED20070306D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/amazedViewController.xib; sourceTree = "<group>"; };
+		E79A07F014A8DED20070306D /* amazedTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amazedTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79A07F114A8DED20070306D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E79A07FA14A8DED20070306D /* amazedTests-Info.plist */ = {isa = PBXFileReference; path = "amazedTests-Info.plist"; sourceTree = "<group>"; };
+		E79A07FC14A8DED20070306D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E79A07FE14A8DED20070306D /* amazedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = amazedTests.h; sourceTree = "<group>"; };
+		E79A080014A8DED20070306D /* amazedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = amazedTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E79A07C914A8DED20070306D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A07D114A8DED20070306D /* UIKit.framework in Frameworks */,
+				E79A07D314A8DED20070306D /* Foundation.framework in Frameworks */,
+				E79A07D514A8DED20070306D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79A07EC14A8DED20070306D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A07F214A8DED20070306D /* SenTestingKit.framework in Frameworks */,
+				E79A07F314A8DED20070306D /* UIKit.framework in Frameworks */,
+				E79A07F414A8DED20070306D /* Foundation.framework in Frameworks */,
+				E79A07F514A8DED20070306D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E79A07C114A8DED20070306D = {
+			isa = PBXGroup;
+			children = (
+				E79A07D614A8DED20070306D /* amazed */,
+				E79A07F814A8DED20070306D /* amazedTests */,
+				E79A07CF14A8DED20070306D /* Frameworks */,
+				E79A07CD14A8DED20070306D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E79A07CD14A8DED20070306D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E79A07CC14A8DED20070306D /* amazed.app */,
+				E79A07F014A8DED20070306D /* amazedTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E79A07CF14A8DED20070306D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E79A07D014A8DED20070306D /* UIKit.framework */,
+				E79A07D214A8DED20070306D /* Foundation.framework */,
+				E79A07D414A8DED20070306D /* CoreGraphics.framework */,
+				E79A07F114A8DED20070306D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E79A07D614A8DED20070306D /* amazed */ = {
+			isa = PBXGroup;
+			children = (
+				E79A07DF14A8DED20070306D /* amazedAppDelegate.h */,
+				E79A07E014A8DED20070306D /* amazedAppDelegate.m */,
+				E79A07E214A8DED20070306D /* MainWindow.xib */,
+				E79A07E514A8DED20070306D /* amazedViewController.h */,
+				E79A07E614A8DED20070306D /* amazedViewController.m */,
+				E79A07E814A8DED20070306D /* amazedViewController.xib */,
+				E79A07D714A8DED20070306D /* Supporting Files */,
+			);
+			path = amazed;
+			sourceTree = "<group>";
+		};
+		E79A07D714A8DED20070306D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E79A07D814A8DED20070306D /* amazed-Info.plist */,
+				E79A07D914A8DED20070306D /* InfoPlist.strings */,
+				E79A07DC14A8DED20070306D /* main.m */,
+				E79A07DE14A8DED20070306D /* amazed-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E79A07F814A8DED20070306D /* amazedTests */ = {
+			isa = PBXGroup;
+			children = (
+				E79A07FE14A8DED20070306D /* amazedTests.h */,
+				E79A080014A8DED20070306D /* amazedTests.m */,
+				E79A07F914A8DED20070306D /* Supporting Files */,
+			);
+			path = amazedTests;
+			sourceTree = "<group>";
+		};
+		E79A07F914A8DED20070306D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E79A07FA14A8DED20070306D /* amazedTests-Info.plist */,
+				E79A07FB14A8DED20070306D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E79A07CB14A8DED20070306D /* amazed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79A080414A8DED20070306D /* Build configuration list for PBXNativeTarget "amazed" */;
+			buildPhases = (
+				E79A07C814A8DED20070306D /* Sources */,
+				E79A07C914A8DED20070306D /* Frameworks */,
+				E79A07CA14A8DED20070306D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = amazed;
+			productName = amazed;
+			productReference = E79A07CC14A8DED20070306D /* amazed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E79A07EF14A8DED20070306D /* amazedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79A080714A8DED20070306D /* Build configuration list for PBXNativeTarget "amazedTests" */;
+			buildPhases = (
+				E79A07EB14A8DED20070306D /* Sources */,
+				E79A07EC14A8DED20070306D /* Frameworks */,
+				E79A07ED14A8DED20070306D /* Resources */,
+				E79A07EE14A8DED20070306D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79A07F714A8DED20070306D /* PBXTargetDependency */,
+			);
+			name = amazedTests;
+			productName = amazedTests;
+			productReference = E79A07F014A8DED20070306D /* amazedTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E79A07C314A8DED20070306D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E79A07C614A8DED20070306D /* Build configuration list for PBXProject "amazed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E79A07C114A8DED20070306D;
+			productRefGroup = E79A07CD14A8DED20070306D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E79A07CB14A8DED20070306D /* amazed */,
+				E79A07EF14A8DED20070306D /* amazedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E79A07CA14A8DED20070306D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A07DB14A8DED20070306D /* InfoPlist.strings in Resources */,
+				E79A07E414A8DED20070306D /* MainWindow.xib in Resources */,
+				E79A07EA14A8DED20070306D /* amazedViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79A07ED14A8DED20070306D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A07FD14A8DED20070306D /* InfoPlist.strings in Resources */,
+				E79A07FF14A8DED20070306D /* amazedTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E79A07EE14A8DED20070306D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E79A07C814A8DED20070306D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A07DD14A8DED20070306D /* main.m in Sources */,
+				E79A07E114A8DED20070306D /* amazedAppDelegate.m in Sources */,
+				E79A07E714A8DED20070306D /* amazedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79A07EB14A8DED20070306D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79A080114A8DED20070306D /* amazedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E79A07F714A8DED20070306D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79A07CB14A8DED20070306D /* amazed */;
+			targetProxy = E79A07F614A8DED20070306D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E79A07D914A8DED20070306D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79A07DA14A8DED20070306D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E79A07E214A8DED20070306D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79A07E314A8DED20070306D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E79A07E814A8DED20070306D /* amazedViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79A07E914A8DED20070306D /* en */,
+			);
+			name = amazedViewController.xib;
+			sourceTree = "<group>";
+		};
+		E79A07FB14A8DED20070306D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79A07FC14A8DED20070306D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E79A080214A8DED20070306D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E79A080314A8DED20070306D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E79A080514A8DED20070306D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "amazed/amazed-Prefix.pch";
+				INFOPLIST_FILE = "amazed/amazed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E79A080614A8DED20070306D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "amazed/amazed-Prefix.pch";
+				INFOPLIST_FILE = "amazed/amazed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E79A080814A8DED20070306D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/amazed.app/amazed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "amazed/amazed-Prefix.pch";
+				INFOPLIST_FILE = "amazedTests/amazedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E79A080914A8DED20070306D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/amazed.app/amazed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "amazed/amazed-Prefix.pch";
+				INFOPLIST_FILE = "amazedTests/amazedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E79A07C614A8DED20070306D /* Build configuration list for PBXProject "amazed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79A080214A8DED20070306D /* Debug */,
+				E79A080314A8DED20070306D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79A080414A8DED20070306D /* Build configuration list for PBXNativeTarget "amazed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79A080514A8DED20070306D /* Debug */,
+				E79A080614A8DED20070306D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E79A080714A8DED20070306D /* Build configuration list for PBXNativeTarget "amazedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79A080814A8DED20070306D /* Debug */,
+				E79A080914A8DED20070306D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E79A07C314A8DED20070306D /* Project object */;
+}
