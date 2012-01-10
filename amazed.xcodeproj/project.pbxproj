@@ -23,6 +23,7 @@
 		E79A07FD14A8DED20070306D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E79A07FB14A8DED20070306D /* InfoPlist.strings */; };
 		E79A07FF14A8DED20070306D /* amazedTests.h in Resources */ = {isa = PBXBuildFile; fileRef = E79A07FE14A8DED20070306D /* amazedTests.h */; };
 		E79A080114A8DED20070306D /* amazedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A080014A8DED20070306D /* amazedTests.m */; };
+		E79A080C14A8DF100070306D /* draw2D.m in Sources */ = {isa = PBXBuildFile; fileRef = E79A080B14A8DF100070306D /* draw2D.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +41,24 @@
 		E79A07D014A8DED20070306D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E79A07D214A8DED20070306D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E79A07D414A8DED20070306D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E79A07D814A8DED20070306D /* amazed-Info.plist */ = {isa = PBXFileReference; path = "amazed-Info.plist"; sourceTree = "<group>"; };
+		E79A07D814A8DED20070306D /* amazed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "amazed-Info.plist"; sourceTree = "<group>"; };
 		E79A07DA14A8DED20070306D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E79A07DC14A8DED20070306D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E79A07DE14A8DED20070306D /* amazed-Prefix.pch */ = {isa = PBXFileReference; path = "amazed-Prefix.pch"; sourceTree = "<group>"; };
-		E79A07DF14A8DED20070306D /* amazedAppDelegate.h */ = {isa = PBXFileReference; path = amazedAppDelegate.h; sourceTree = "<group>"; };
+		E79A07DE14A8DED20070306D /* amazed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "amazed-Prefix.pch"; sourceTree = "<group>"; };
+		E79A07DF14A8DED20070306D /* amazedAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = amazedAppDelegate.h; sourceTree = "<group>"; };
 		E79A07E014A8DED20070306D /* amazedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = amazedAppDelegate.m; sourceTree = "<group>"; };
 		E79A07E314A8DED20070306D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		E79A07E514A8DED20070306D /* amazedViewController.h */ = {isa = PBXFileReference; path = amazedViewController.h; sourceTree = "<group>"; };
+		E79A07E514A8DED20070306D /* amazedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = amazedViewController.h; sourceTree = "<group>"; };
 		E79A07E614A8DED20070306D /* amazedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = amazedViewController.m; sourceTree = "<group>"; };
 		E79A07E914A8DED20070306D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/amazedViewController.xib; sourceTree = "<group>"; };
 		E79A07F014A8DED20070306D /* amazedTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amazedTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79A07F114A8DED20070306D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E79A07FA14A8DED20070306D /* amazedTests-Info.plist */ = {isa = PBXFileReference; path = "amazedTests-Info.plist"; sourceTree = "<group>"; };
+		E79A07FA14A8DED20070306D /* amazedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "amazedTests-Info.plist"; sourceTree = "<group>"; };
 		E79A07FC14A8DED20070306D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E79A07FE14A8DED20070306D /* amazedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = amazedTests.h; sourceTree = "<group>"; };
 		E79A080014A8DED20070306D /* amazedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = amazedTests.m; sourceTree = "<group>"; };
+		E79A080A14A8DF100070306D /* draw2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = draw2D.h; sourceTree = "<group>"; };
+		E79A080B14A8DF100070306D /* draw2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = draw2D.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				E79A07E614A8DED20070306D /* amazedViewController.m */,
 				E79A07E814A8DED20070306D /* amazedViewController.xib */,
 				E79A07D714A8DED20070306D /* Supporting Files */,
+				E79A080A14A8DF100070306D /* draw2D.h */,
+				E79A080B14A8DF100070306D /* draw2D.m */,
 			);
 			path = amazed;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				E79A07DD14A8DED20070306D /* main.m in Sources */,
 				E79A07E114A8DED20070306D /* amazedAppDelegate.m in Sources */,
 				E79A07E714A8DED20070306D /* amazedViewController.m in Sources */,
+				E79A080C14A8DF100070306D /* draw2D.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
